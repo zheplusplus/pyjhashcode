@@ -7,13 +7,14 @@ def descr():
 
 setup(
     name='jhashcode',
-    version='0.01',
+    version='0.02',
     author='Neuron Teckid',
     author_email='lene13@gmail.com',
     license='MIT',
     keywords='Java hashCode',
     url='https://github.com/neuront/pyjhashcode',
     description='Python implemented Java `hashCode` methods.',
+    packages=['jhashcode'],
     long_description=descr(),
     install_requires=[],
     zip_safe=False,
