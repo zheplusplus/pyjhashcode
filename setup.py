@@ -7,7 +7,7 @@ def descr():
 
 setup(
     name='jhashcode',
-    version='0.03',
+    version='0.4',
     author='Neuron Teckid',
     author_email='lene13@gmail.com',
     license='MIT',
@@ -18,6 +18,7 @@ setup(
     long_description=descr(),
     install_requires=[],
     zip_safe=False,
+    test_suite='tests',
     entry_points=dict(
         console_scripts=[],
     ),
